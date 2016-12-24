@@ -26,18 +26,11 @@ This is a JSON API gateway using Ruby and Sinatra that interfaces with our Postg
 
 The API uses a GraphQL/Postgrest inspired generalized endpoint system with less nesting. It uses a Ruby module structure to generate Postgresql queries for different endpoints and has the ability to run many SQL queries in parallel for one request.
 
-### API Admin Interface
-
-This is an experimental, generalized UI for directly interacting with the API as an authenticated user (eg for doing support or admin).
-
-* Repo: https://github.com/CommitChange/api-gui
-* Location: https://api-gui.commitchange.com
-* Stack: Frontend only (with [Flimflam](http://flimflamjs.github.io/))
-* Host: Heroku
-
-### API Documentation
+### API Documentation and User Interface
 
 Automatically generated documentation for every API endpoint. These docs get generated dynamically by the frontend making OPTIONS requests to the API, discovering all its endpoints, and formatting the JSON documentation from those requests. You can login and see the endpoints available for your account type (by default it shows only public endpoints).
+
+The documentation site also has the ability to login and construct actual API requests using a GUI. This is still experimental and may prove very useful for support and admin.
 
 * Repo: https://github.com/CommitChange/commitchange.github.io
 * Location: http://docs.commitchange.com
