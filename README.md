@@ -100,3 +100,8 @@ Our base CSS files for our CommitChange-branded web components. This can be inst
 * Migrate all the commitchange.com frontend to unit-tested, npm-hosted Flimflam components and Postcss modules
 * Migrate commitchange.com to be purely a frontend client to the API gateway.
 * Create a payment Audits server that is an API client and has crons for checking the database on the data, performing regularly scheduled audits, and emailing and results
+* Add Websocket based real-time messaging support for the API for things like campaign activity and metrics
+
+# Support and Maintenance
+
+We keep track of dev support tickets here: https://github.com/commitchange/tix/issues. We spend on average 10 dev-hours per week on support.
