@@ -97,12 +97,13 @@ This is a microservice (and client to the API) that listens for webhook events f
 
 Our base CSS files for our CommitChange-branded web components. This can be installed with npm.
 
-Repo: https://github.com/CommitChange/commons.css
-Stack: postcss, postcss-import, precss, normalize
+* Repo: https://github.com/CommitChange/commons.css
+* Stack: postcss, postcss-import, precss, normalize
 
 # Future Expansion
 
 * Use Ruby YARD and Javascript ESDoc to add in-code documentation throughout the entire platform.
+* Increase collection of Ruby Gems and NPM modules by extracting discrete functionality out of the apps.
+* Migrate all the commitchange.com frontend to unit-tested, npm-hosted Flimflam components and Postcss modules
+* Migrate commitchange.com to be purely a frontend client to the API gateway.
 * Create a payment Audits server that is an API client and has crons for checking the database on the data, performing regularly scheduled audits, and emailing and results
-* Increase collection of Ruby Gems and NPM modules by extracting discrete functionality from the apps.
-* Migrate all the commitchange.com frontend to unit-tested, npm-hosted Flimflam components that are clients to the API server.
